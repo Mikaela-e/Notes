@@ -1,7 +1,10 @@
 # Notes
 
+
 Skol projekt
+
 /////
+
 Starta projektet:
 
 Back-end : Nodemon start
