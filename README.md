@@ -38,6 +38,9 @@ password: "thenotes",
 database: "thenotes"
 
 ///////////////
+![bild](https://user-images.githubusercontent.com/94055649/197856666-69ca8da5-36d7-4b4f-a0f3-e5fac16a7f43.png)
+
+//////////////
 
 Logga in :
 
