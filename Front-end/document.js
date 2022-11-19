@@ -1,13 +1,12 @@
-///Lyckades inte få till med redigering och vanligt läge.
-
 window.onload = function(e){
-e.preventDefault
+e.preventDefault();
 };
 
 tinymce.init({
     selector: "#textContent",
-    plugins: 'link image  code  emoticons   fullscreen', 
-    toolbar: 'undo redo  | forecolor| styles |fontsize | bold italic underline | alignleft aligncenter alignright alignjustify | outdent indent | code | link image| print |emoticons| fullscreen|help',
+    plugins: 'link image code fullscreen', 
+    menubar: false,
+    toolbar: 'undo redo  | forecolor | styles |fontsize| styleselect | bold italic underline | alignleft aligncenter alignright alignjustify | outdent indent | code | link image| print | fullscreen|help',
     setup: function(editor){
     editor.on("change", function(){
     editor.save();
